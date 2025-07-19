@@ -8,10 +8,10 @@ The goal was to improve measurement consistency between two satellite instrument
 - Visual inspection and event segmentation
 - RANSAC regression, χ²-fitting, and optimization using ORDin
 
-## Structure
+## Contents
 
-- `notebooks/`: Jupyter notebook with full analysis
-- `data/`: Data needed for the analysis
+- `notebooks`: Jupyter notebook with full analysis and the HTML version which you can look at whitout running any code
+- `data`: The data needed for the analysis can be found on Google Drive: https://drive.google.com/drive/folders/1E-sVoM8nu9m4--gEreiudJAxJe33LQQ2?usp=drive_link
 
 ## Libraries used
 
@@ -23,4 +23,4 @@ The goal was to improve measurement consistency between two satellite instrument
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook notebooks/crosscalibration.ipynb
+jupyter notebook Ville_antila_Notebook.ipynb
